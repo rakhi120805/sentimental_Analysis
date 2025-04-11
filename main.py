@@ -1,118 +1,54 @@
-import requests
 import pandas as pd
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from datetime import datetime, timedelta
+import numpy as np
+from sklearn.preprocessing import StandardScaler
 
-# NewsAPI setup
-api_key = "YOUR_NEWSAPI_KEY"  # Replace with your NewsAPI key
-query = "Tesla OR Tesla Inc OR TSLA OR Elon Musk OR Tesla Motors"  # Broad query
-end_date = datetime(2025, 4, 10).date()  # Match stock data
-start_date = datetime(2025, 3, 11).date()  # Match stock data
+# Load stock and sentiment data
+stock_data = pd.read_csv("tsla_stock_data.csv")
+sentiment_data = pd.read_csv("tsla_news_sentiment.csv")
 
-# Function to fetch news with pagination
-def fetch_news(api_key, query, start_date, end_date):
-    url = "https://newsapi.org/v2/everything"
-    articles = []
-    page = 1
-    max_pages = 5  # Limit to avoid hitting API quota
-    while page <= max_pages:
-        params = {
-            "q": query,
-            "from": start_date.strftime("%Y-%m-%d"),
-            "to": end_date.strftime("%Y-%m-%d"),
-            "apiKey": api_key,
-            "language": "en",
-            "sortBy": "popularity",  # Prioritize high-impact articles
-            "page": page,
-            "pageSize": 100
-        }
-        try:
-            response = requests.get(url, params=params)
-            if response.status_code == 429:
-                print("Rate limit reached. Try again later.")
-                break
-            response.raise_for_status()
-            data = response.json()
-            new_articles = data.get("articles", [])
-            articles.extend(new_articles)
-            print(f"Fetched {len(new_articles)} articles on page {page} (total: {len(articles)})")
-            if len(new_articles) < 100:
-                break
-            page += 1
-        except Exception as e:
-            print(f"Error fetching page {page}: {e}")
-            break
-    if not articles:
-        print("No news articles found.")
-    return articles
+# Convert Date columns to datetime
+stock_data["Date"] = pd.to_datetime(stock_data["Date"]).dt.date
+sentiment_data["Date"] = pd.to_datetime(sentiment_data["Date"]).dt.date
 
-# Fetch news
-print(f"Fetching news from {start_date} to {end_date}...")
-articles = fetch_news(api_key, query, start_date, end_date)
-print(f"Total articles fetched: {len(articles)}")
+# Merge datasets on Date (inner join to keep only matching dates)
+merged_data = pd.merge(stock_data, sentiment_data, on="Date", how="inner")
 
-# Log articles for debugging
-with open("news_articles_log.txt", "w", encoding="utf-8") as f:
-    for i, article in enumerate(articles, 1):
-        f.write(f"Article {i}:\n")
-        f.write(f"Title: {article.get('title', 'N/A')}\n")
-        f.write(f"Description: {article.get('description', 'N/A')}\n")
-        f.write(f"Published: {article.get('publishedAt', 'N/A')}\n")
-        f.write(f"Source: {article.get('source', {}).get('name', 'N/A')}\n")
-        f.write("-" * 50 + "\n")
+# Create features
+# 1. Daily return: (Close - Open) / Open
+merged_data["Daily_Return"] = (merged_data["Close"] - merged_data["Open"]) / merged_data["Open"]
 
-# Process news into a DataFrame
-news_data = []
-for article in articles:
-    title = article.get("title", "")
-    description = article.get("description", "")
-    published_at = article.get("publishedAt", "")
-    if title or description:  # Accept either
-        text = f"{title} {description or ''}".strip()
-        try:
-            date = pd.to_datetime(published_at).date()
-            if start_date <= date <= end_date:
-                news_data.append({"Date": date, "Text": text})
-            else:
-                print(f"Skipping article outside range: {published_at}")
-        except ValueError:
-            print(f"Skipping article with invalid date: {published_at}")
+# 2. Price range: High - Low
+merged_data["Price_Range"] = merged_data["High"] - merged_data["Low"]
 
-news_df = pd.DataFrame(news_data)
-if news_df.empty:
-    print("No valid news data after processing. Check news_articles_log.txt.")
-    exit()
+# 3. Volatility proxy: abs(Daily_Return)
+merged_data["Volatility"] = merged_data["Daily_Return"].abs()
 
-# Calculate sentiment using VADER
-analyzer = SentimentIntensityAnalyzer()
-def get_sentiment(text):
-    scores = analyzer.polarity_scores(text)
-    return scores["compound"]
+# 4. Sentiment (already included)
+# Optionally smooth sentiment to reduce noise (3-day moving average)
+merged_data["Sentiment_Smoothed"] = merged_data["Sentiment"].rolling(window=3, min_periods=1).mean()
 
-news_df["Sentiment"] = news_df["Text"].apply(get_sentiment)
+# Select features for PCA
+features = ["Open", "Close", "Volume", "Daily_Return", "Price_Range", "Volatility", "Sentiment", "Sentiment_Smoothed"]
+feature_data = merged_data[features]
 
-# Aggregate sentiment by date (mean sentiment per day)
-sentiment_df = news_df.groupby("Date")["Sentiment"].mean().reset_index()
+# Handle missing values (should be minimal after merge)
+feature_data = feature_data.fillna(0)  # Replace NaNs with 0 (e.g., for early moving averages)
 
-# Ensure all dates are covered
-all_dates = pd.DataFrame({"Date": pd.date_range(start=start_date, end=end_date).date})
-sentiment_df = all_dates.merge(sentiment_df, on="Date", how="left")
-sentiment_df["Sentiment"] = sentiment_df["Sentiment"].fillna(0)  # Neutral for no news
+# Standardize features (PCA requires scaled data)
+scaler = StandardScaler()
+scaled_features = scaler.fit_transform(feature_data)
 
-# Save to CSV
-sentiment_df.to_csv("tsla_news_sentiment.csv", index=False)
+# Create a DataFrame with scaled features
+scaled_df = pd.DataFrame(scaled_features, columns=features, index=merged_data["Date"])
+
+# Save merged and scaled data
+merged_data.to_csv("tsla_merged_data.csv", index=False)
+scaled_df.to_csv("tsla_scaled_features.csv")
 
 # Display results
-print("\nNews sentiment for Tesla:")
-print(sentiment_df)
-print(f"\nSentiment data range: {sentiment_df['Date'].min()} to {sentiment_df['Date'].max()}")
-
-# Verify stock data alignment
-stock_data = pd.read_csv("tsla_stock_data.csv")
-stock_dates = pd.to_datetime(stock_data["Date"]).dt.date
-print("\nStock data range:")
-print(f"From {stock_dates.min()} to {stock_dates.max()}")
-
-# Count non-zero sentiment days
-non_zero_days = len(sentiment_df[sentiment_df["Sentiment"] != 0])
-print(f"Days with non-zero sentiment: {non_zero_days}")
+print("Merged Data Preview:")
+print(merged_data[["Date", "Close", "Sentiment", "Daily_Return", "Sentiment_Smoothed"]].head())
+print("\nScaled Features Preview:")
+print(scaled_df.head())
+print(f"\nData range: {merged_data['Date'].min()} to {merged_data['Date'].max()}")
+print(f"Number of days: {len(merged_data)}")
