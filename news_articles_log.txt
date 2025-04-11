@@ -1,0 +1,601 @@
+Article 1:
+Title: Donald Trump Bought a $90,000 Tesla With 37 Recall Notices Against It
+Description: Here's hoping Elon Musk won't have to personally fix President Trump's new EV anytime soon.
+Published: 2025-03-12T16:45:25Z
+Source: Wired
+--------------------------------------------------
+Article 2:
+Title: Is Tesla cooked?
+Description: Tesla stock plunged 15 percent on Monday, its steepest drop in five years. The price is down over 50 percent since its December highs. Tesla owners, disgusted with Elon Muskâs slash-and-burn tactics for the Trump administration, are selling their vehicles a…
+Published: 2025-03-11T22:17:04Z
+Source: The Verge
+--------------------------------------------------
+Article 3:
+Title: How the Tesla brand turned so toxic
+Description: Today we’re talking about the protests against Tesla, which have been branded on social media under the hashtag Tesla Takedown. The protests are, of course, a reaction to Elon Musk, who has managed to install himself as basically a not-so-shadow president who…
+Published: 2025-03-20T13:19:47Z
+Source: The Verge
+--------------------------------------------------
+Article 4:
+Title: Price hikes, idled factories, layoffs: how car companies are responding to Trump’s tariffs
+Description: President Donald Trumpâs 25 percent tariffs on all auto-related imports have been called âa debacle of epic proportionsâ and a sure-fire way to tank the auto market by crushing demand. Analysts have been predicting everything from $12,000 per vehicle pr…
+Published: 2025-04-04T21:16:01Z
+Source: The Verge
+--------------------------------------------------
+Article 5:
+Title: GM taps Nvidia to boost its embattled self-driving projects
+Description: At Nvidia’s annual GTC conference in San Jose, Calif. today, the chipmaker announced it was teaming up with General Motors to develop next-generation cars, robots, and factories.  GM says it will apply several of Nvidia’s products to its business, such as the…
+Published: 2025-03-18T17:54:11Z
+Source: The Verge
+--------------------------------------------------
+Article 6:
+Title: Trump pardons ex-Nikola CEO Trevor Milton
+Description: Trevor Milton, the founder of Nikola Motors who was convicted of defrauding investors in his zero-emission truck company, has been pardoned by President Donald Trump, the White House confirmed Friday. A federal jury convicted Milton of lying about Nikola’s ca…
+Published: 2025-03-28T15:39:55Z
+Source: The Verge
+--------------------------------------------------
+Article 7:
+Title: Robosen’s self-transforming Bumblebee is finally giving Optimus Prime some backup
+Description: Robosen’s partnership with Hasbro continues with a new Bumblebee self-transforming robot toy launching this summer. Powered by 31 servo motors, Bumblebee transforms from a bright yellow bot to a classic Beetle with a scaled-down design officially licensed by …
+Published: 2025-03-27T16:32:16Z
+Source: The Verge
+--------------------------------------------------
+Article 8:
+Title: Joby will launch UK air taxi service with Virgin Atlantic
+Description: Virgin Atlantic announced a partnership with California-based Joby Aviation to launch an air taxi service in the UK, becoming the latest airline to bet on a new class of electric aircraft vying to become taxis in the sky. Joby’s all-electric aircraft has six …
+Published: 2025-03-14T19:05:02Z
+Source: The Verge
+--------------------------------------------------
+Article 9:
+Title: The Best Gadgets of March 2025
+Description: March brought us new Macs, ultra-thin foldables, and even an exoskeleton. However, some of our most-anticipated tech for the month won't arrive until April.
+Published: 2025-03-31T20:00:08Z
+Source: Gizmodo.com
+--------------------------------------------------
+Article 10:
+Title: The Hypershell Exoskeleton is So Good at Climbing Cliffs it Ruined My Workout
+Description: The Hypershell Pro X is a hiking exoskeleton made for going harder for longer, or for getting less from what you normally do.
+Published: 2025-03-29T13:00:48Z
+Source: Gizmodo.com
+--------------------------------------------------
+Article 11:
+Title: Tesla's challenges run deeper than 'toxic' controversy around Elon Musk
+Description: The company is still valued at more than 100 times its earnings - but it faces problems that experts say go beyond questions around its CEO
+Published: 2025-03-20T00:05:40Z
+Source: BBC News
+--------------------------------------------------
+Article 12:
+Title: Trade war escalates as Trump metal tariffs take effect
+Description: Flat duty on steel and aluminium imports is a major hit for some of of the US's top trading partners.
+Published: 2025-03-12T04:00:14Z
+Source: BBC News
+--------------------------------------------------
+Article 13:
+Title: Open Source Hardware Certifications for March 2025
+Description: Check out four excellent new open source hardware certifications for March 2025.
+The post Open Source Hardware Certifications for March 2025 appeared first on Make: DIY Projects and Ideas for Makers.
+Published: 2025-04-04T17:00:00Z
+Source: Makezine.com
+--------------------------------------------------
+Article 14:
+Title: GM Reportedly Blocks Dealership From Installing CarPlay in Newer EVs
+Description: A few years ago, the American automaker General Motors (GM) announced that it would be phasing out support for CarPlay and Android Auto in its new electric vehicles, in favor of its own software platform. It was a controversial decision, as many drivers who a…
+Published: 2025-03-21T15:22:35Z
+Source: MacRumors
+--------------------------------------------------
+Article 15:
+Title: I Tried My Hand at Astrophotography With a $500 Smart Telescope. Here's How It Went
+Description: I Tested the Dwarf 3, a perfect tool for astrophotography beginners with loads of features for more experienced stargazers.
+Published: 2025-03-11T11:45:00Z
+Source: CNET
+--------------------------------------------------
+Article 16:
+Title: Here are the market's biggest losers from Trump's fresh auto tariffs
+Description: JPMorgan analyst Ryan Brinkman called the tariffs "draconian" and lowered the bank's price targets for General Motors, Ford, and Ferrari as a result.
+Published: 2025-03-27T14:33:24Z
+Source: Business Insider
+--------------------------------------------------
+Article 17:
+Title: Trump's new tariffs could raise car prices. And, Dems demand answers after Signal leak
+Description: Trump announced he'll impose 25% tariffs on imported cars starting next week. The decision received mixed reactions. And, Democrats are demanding answers after bombing plans were discussed on Signal.
+Published: 2025-03-27T10:55:53Z
+Source: NPR
+--------------------------------------------------
+Article 18:
+Title: Trump Pardons Founder of Electric Vehicle Start-Up Nikola, Trevor Milton
+Description: An anonymous reader quotes a report from The Guardian: Trevor Milton, the founder of electric vehicle start-up Nikola who was sentenced to prison last year, was pardoned by Donald Trump late on Thursday, the White House confirmed on Friday. The pardon of Milt…
+Published: 2025-03-28T21:50:00Z
+Source: Slashdot.org
+--------------------------------------------------
+Article 19:
+Title: GM Taps Nvidia To Boost Its Self-Driving Projects
+Description: General Motors is partnering with Nvidia to enhance its self-driving and manufacturing capabilities by leveraging Nvidia's AI chips, software, and simulation tools. "GM says it will apply several of Nvidia's products to its business, such as the Omniverse 3D …
+Published: 2025-03-18T20:40:00Z
+Source: Slashdot.org
+--------------------------------------------------
+Article 20:
+Title: Nvidia CEO Jensen Huang says every company will become an 'AI factory.' Here's what he means.
+Description: Jensen Huang, Nvidia's CEO, envisions companies as 'AI factories' churning out millions of tokens. This is what he's talking about.
+Published: 2025-03-19T22:10:21Z
+Source: Business Insider
+--------------------------------------------------
+Article 21:
+Title: From Amazon to Pinterest: The 40 tech companies that file the most H-1B immigrant work visas
+Description: President Trump's immigration crackdown is raising questions about visa programs for skilled workers. See which tech companies file the most H-1Bs.
+Published: 2025-03-12T09:00:02Z
+Source: Business Insider
+--------------------------------------------------
+Article 22:
+Title: Nikola founder Trevor Milton has been pardoned by Trump
+Description: Trevor Milton, who was sentenced to prison in 2023 for misleading investors about Nikola's trucks, first shared news of his pardon on Instagram.
+Published: 2025-03-28T15:03:33Z
+Source: Business Insider
+--------------------------------------------------
+Article 23:
+Title: Why an 89-year-old who retired just 2 years ago wishes he was still working
+Description: Richard Maas, 89, worked with cars for five decades and ran a company into his 80s. After retiring two years ago, he wants to return to work.
+Published: 2025-03-26T08:03:01Z
+Source: Business Insider
+--------------------------------------------------
+Article 24:
+Title: The US Navy is still grappling with elevator problems on its new Ford-class supercarriers
+Description: Continued problems with the advanced weapons elevators could affect the delivery of the Navy's next Ford-class carrier, Navy officials indicated.
+Published: 2025-04-09T18:26:30Z
+Source: Business Insider
+--------------------------------------------------
+Article 25:
+Title: Inside a Ukrainian company making exploding unjammable drones built to beat Russia's electronic warfare
+Description: Business Insider visited a Ukrainian company making fiber-optic drones in Kyiv. This is what it's like inside the operation.
+Published: 2025-03-27T09:30:01Z
+Source: Business Insider
+--------------------------------------------------
+Article 26:
+Title: Trump announced double-digit tariffs on dozens of countries. Here's what the US imports from some of the most affected ones.
+Description: Trump slapped dozens of countries with broad tariffs. They'll impact goods the US imports from major trading partners like China and the EU.
+Published: 2025-04-03T19:59:57Z
+Source: Business Insider
+--------------------------------------------------
+Article 27:
+Title: Canadian autoworkers say they face uncertainty and fear as Trump's car tariffs shake the industry
+Description: Canada has already been hit hard by Trump's auto tariffs, and workers told BI they are bracing for further chaos and disruption.
+Published: 2025-04-10T16:23:36Z
+Source: Business Insider
+--------------------------------------------------
+Article 28:
+Title: The era of Corporate Pride is over
+Description: Corporate America is backing away from Pride amid the DEI backlash and the White House's war on diversity.
+Published: 2025-04-03T08:04:02Z
+Source: Business Insider
+--------------------------------------------------
+Article 29:
+Title: DIY Linear Tubular Motor Does Precise Slides
+Description: We’ve seen plenty of motor projects, but [Jeremy]’s DIY Tubular Linear Motor is a really neat variety of stepper motor in a format we certainly don’t see every day. It started as …
+Published: 2025-03-31T11:00:37Z
+Source: Hackaday
+--------------------------------------------------
+Article 30:
+Title: GM and Nvidia collaborate on AI for self-driving cars and vehicle manufacturing
+Description: GM, the largest U.S. automaker, has extended its collaboration with Nvidia to develop self-driving cars and enhance vehicle manufacturing through simulation and accelerated computing. At GTC 2025, Nvidia CEO Jensen Huang announced GM and Nvidia are collaborat…
+Published: 2025-03-18T18:23:00Z
+Source: VentureBeat
+--------------------------------------------------
+Article 31:
+Title: $115 million just poured into this startup that makes engineering 1,000x faster — and Bezos, Altman, and Nvidia are all betting on its success
+Description: Rescale secures $115 million in Series D funding to accelerate AI physics technology that speeds up engineering simulations by 1000x, backed by tech luminaries including Bezos and Altman.
+Published: 2025-04-07T22:26:08Z
+Source: VentureBeat
+--------------------------------------------------
+Article 32:
+Title: Nvidia’s GTC 2025 keynote: 40x AI performance leap, open-source ‘Dynamo’, and a walking Star Wars-inspired ‘Blue’ robot
+Description: Nvidia CEO Jensen Huang unveils 40x faster Blackwell platform, Vera Rubin roadmap through 2027, open-source Dynamo software, humanoid robotics AI, and GM partnership at GTC 2025, positioning the company to counter DeepSeek's efficiency challenge.
+Published: 2025-03-19T03:56:25Z
+Source: VentureBeat
+--------------------------------------------------
+Article 33:
+Title: Ex-Tesla, Polestar execs unveil new ultralight electric sports cars
+Description: With their heavy battery packs, EVs are hardly known for being lightweight. That is, perhaps, until now.  British startup Longbow — founded by former Tesla, Lucid, and Polestar execs — emerged from stealth today with plans for two new ultralight EVs. The comp…
+Published: 2025-03-12T15:48:04Z
+Source: The Next Web
+--------------------------------------------------
+Article 34:
+Title: Printed Robotic Arm Pumps Up With Brushless Motors
+Description: [JesseDarr] recently wrote in to tell us about their dynamic Arm for Robitc Mischief (dARM), a mostly 3D printed six degrees of freedom (6DOF) robotic arm that’s designed to be stronger and m…
+Published: 2025-04-08T08:00:16Z
+Source: Hackaday
+--------------------------------------------------
+Article 35:
+Title: Your Badminton Racket Needs Restringing? There’s a DIY Machine for That
+Description: We don’t often get our badminton rackets restrung, but if we did, [kuokuo702]’s PicoBETH project would be where we’d turn. This is a neat machine build for a very niche application, but it’s also a…
+Published: 2025-03-27T18:30:00Z
+Source: Hackaday
+--------------------------------------------------
+Article 36:
+Title: Contagious Ideas
+Description: We ran a story about a wall-mounted plotter bot this week, Mural. It’s a simple, but very well implemented, take on a theme that we’ve seen over and over again in various forms. Two lines, or in th…
+Published: 2025-03-29T14:00:47Z
+Source: Hackaday
+--------------------------------------------------
+Article 37:
+Title: Admit it. You Want This Go-Kart
+Description: Many of us could have been lucky enough to have some form of pedal go-kart in our formative years, and among such lucky children there can have been few who did not wish for their ride to have a li…
+Published: 2025-03-26T08:00:25Z
+Source: Hackaday
+--------------------------------------------------
+Article 38:
+Title: Mural: The Plotter That Draws On Walls
+Description: Let’s say you’ve got a big bare wall in your home, and you want some art  on it. You could hang a poster or a framed artwork, or you could learn to paint a mural yourself. Or, like [Nik…
+Published: 2025-03-24T20:00:58Z
+Source: Hackaday
+--------------------------------------------------
+Article 39:
+Title: Building a Sliding Tile Clock
+Description: Hackers like making clocks, and we like reporting on them around these parts. Particularly if they’ve got a creative mechanism that we haven’t seen before. This fine timepiece from [gooikerjh] …read more
+Published: 2025-03-31T18:30:00Z
+Source: Hackaday
+--------------------------------------------------
+Article 40:
+Title: Tracking the ISS Made Easy
+Description: If you made something blink, and now it’s time for you to make something move, something like a point-to-a-satellite tracker is a great idea. [Farid] made this moving arrow that always points at th…
+Published: 2025-04-07T08:00:27Z
+Source: Hackaday
+--------------------------------------------------
+Article 41:
+Title: Hackaday Europe 2025: Speaker Schedule and Official Event Page
+Description: Hackaday Europe 2025 is just days away, and we’ve got the finalized speaker schedule hot off the digital press. We’re also pleased to announce that the event page is now officially live…
+Published: 2025-03-13T14:00:55Z
+Source: Hackaday
+--------------------------------------------------
+Article 42:
+Title: Australia’s Steady March Towards Space
+Description: The list of countries to achieve their own successful orbital space launch is a short one, almost as small as the exclusive club of states that possess nuclear weapons. The Soviet Union was first o…
+Published: 2025-04-02T14:00:45Z
+Source: Hackaday
+--------------------------------------------------
+Article 43:
+Title: Tesla (NasdaqGS:TSLA) Climbs 13% On Rumors Of Potential Deal With Nissan
+Description: Tesla (NasdaqGS:TSLA) recently experienced a 12.5% increase in its share price over the past week, a move potentially influenced by rumors of Tesla's...
+Published: 2025-03-17T17:29:06Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 44:
+Title: I've test-driven more than 20 electric cars in the past year – here are my top 8 EVs of 2025 so far
+Description: The past 12 months have been a busy time for electric vehicles, luckily we've driven a bunch of them. Here are our favorites of 2025 so far.
+Published: 2025-03-15T14:00:00Z
+Source: TechRadar
+--------------------------------------------------
+Article 45:
+Title: General Motors Deepens Defense Ties with Secret Service SUV Collaboration
+Description: GM meets Secret Service to explore new innovations for armored vehicles amid deepening defense collaborations
+Published: 2025-03-21T13:54:05Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 46:
+Title: General Motors hints at major tech innovation that could completely transform future vehicles: 'The momentum is really there'
+Description: None
+Published: 2025-04-01T11:30:26Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 47:
+Title: This New 1,297 HP All-Electric Sedan Is as Fast as a Supercar
+Description: The Yangwang U7 has 447 miles of range on a single charge and can go from zero to 62 mph in 2.9 seconds.
+Published: 2025-03-31T20:00:00Z
+Source: Robb Report
+--------------------------------------------------
+Article 48:
+Title: GM to end production of Cadillac XT6 SUV at Tennessee facility in US – report
+Description: GM plans to extend the smaller XT5 crossover's production at the facility until at least the end of 2026.
+Published: 2025-04-09T17:19:56Z
+Source: Just-auto.com
+--------------------------------------------------
+Article 49:
+Title: Top 3 Dividend Stocks To Enhance Your Portfolio
+Description: As the U.S. stock market grapples with volatility due to tariff concerns and recession fears, investors are increasingly seeking stability in their...
+Published: 2025-03-11T11:01:43Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 50:
+Title: At least 13 people facing charges, slew of ‘borgs’ seized during St. Patrick’s Day parade in Boston
+Description: At least 13 people are facing charges in connection with incidents at the St. Patrick’s Day Parade in South Boston on Sunday, authorities said.
+Published: 2025-03-17T12:43:24Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 51:
+Title: A Car Buyer’s Guide to Getting a Good Deal in the Era of Trump’s Tariffs
+Description: “You don't need to panic,” Brian Moody, executive editor at Autotrader, tells TIME.
+Published: 2025-03-28T20:58:00Z
+Source: Time
+--------------------------------------------------
+Article 52:
+Title: How CEOs Beat Trump on Tariffs
+Description: President Donald Trump was ultimately unable to stand up to the growing chorus of CEOs condemning his administration’s tariff agenda.
+Published: 2025-04-10T14:40:29Z
+Source: Time
+--------------------------------------------------
+Article 53:
+Title: College softball rankings: The Top 25 teams after Week 6
+Description: Is Oklahoma still No. 1? Which team dropped out this week? Here's the updated college softball Top 25 poll for Week 6.
+Published: 2025-03-18T16:21:14Z
+Source: ESPN
+--------------------------------------------------
+Article 54:
+Title: US stocks drop slightly in 1st trading since Trump's auto tariffs announced
+Description: The tariffs escalate a global trade war, prompting forecasts of higher car prices.
+Published: 2025-03-27T13:41:28Z
+Source: ABC News
+--------------------------------------------------
+Article 55:
+Title: Trump announces 25% tariffs on imported cars, ratcheting up global trade war
+Description: The major stock indexes closed down on Wednesday.
+Published: 2025-03-26T21:36:20Z
+Source: ABC News
+--------------------------------------------------
+Article 56:
+Title: The most innovative companies in public relations and brand strategies for 2025
+Description: It sure is noisy out there, isn’t it? Brands never have had to work so hard to be heard above the din. This year’s honorees for innovation in public relations and brand strategy have risen to the top of a competitive heap with bold ideas and work.For many, im…
+Published: 2025-03-18T11:00:00Z
+Source: Fast Company
+--------------------------------------------------
+Article 57:
+Title: Buy Now, Upgrade Later: Slate’s $25K Truck Flips the Script on EVs
+Description: Slate, a new EV start-up backed by Jeff Bezos, seeks to offer a $25K electric truck, which will be upgradeable.
+Published: 2025-04-10T09:10:07Z
+Source: Digital Trends
+--------------------------------------------------
+Article 58:
+Title: Cadillac’s entry-level Optiq electric SUV is downsizing done right
+Description: The 2025 Cadillac Optiq is the General Motors' luxury brand's smallest EV yet, and maybe its best value.
+Published: 2025-03-24T13:00:14Z
+Source: Digital Trends
+--------------------------------------------------
+Article 59:
+Title: Mercedes-Benz CLA EV is a small car ushering in big tech updates
+Description: The 2026 Mercedes-Benz CLA may be an entry-level model, but it's leading the way with new tech and EV hardware improvements.
+Published: 2025-03-13T18:00:26Z
+Source: Digital Trends
+--------------------------------------------------
+Article 60:
+Title: Roborock F25 ACE Wet and Dry Vacuum review: the perfect companion for hard floors
+Description: Not only can the F25 ACE tackle all sorts of messes, but its self-cleaning technology ensures it's always ready for your next task.
+Published: 2025-04-04T20:39:43Z
+Source: Digital Trends
+--------------------------------------------------
+Article 61:
+Title: Spring just got smarter: hte dreame Z1 Pro makes pool cleaning a breeze
+Description: Dreame / Dreame Spring is here, and you know what that means – more pool days and, unfortunately, more pool maintenance. But before you dive into scrubbing walls and untangling cords, consider a smarter approach. Dreame’s Z1 Pro, the world’s first cordless ro…
+Published: 2025-03-31T12:00:51Z
+Source: Digital Trends
+--------------------------------------------------
+Article 62:
+Title: Name aside, Cadillac’s Escalade IQ isn’t the smartest EV decision
+Description: Cadillac finally gives its Escalade full-size SUV an electric powertrain to match its impressive tech, but the results are mixed.
+Published: 2025-03-17T13:00:02Z
+Source: Digital Trends
+--------------------------------------------------
+Article 63:
+Title: Trump says he 'couldn't care less' about higher car prices
+Description: Trump says he hopes foreign carmakers raise prices as it means people will buy US-made cars.
+Published: 2025-03-30T08:27:58Z
+Source: BBC News
+--------------------------------------------------
+Article 64:
+Title: 'It's going to get worse': American car buyers brace for sweeping auto tariffs
+Description: "The prices in the wholesale market have skyrocketed already and it's going to get worse," one car seller told the BBC.
+Published: 2025-03-29T00:38:01Z
+Source: BBC News
+--------------------------------------------------
+Article 65:
+Title: Tesla loses ground as Chinese EVs dominate global markets
+Description: Tesla was once an EV leader, but now struggles to keep up as Chinese automakers outpace it in sales, pricing, and innovation, especially in emerging markets
+Published: 2025-03-19T11:25:58Z
+Source: Restofworld.org
+--------------------------------------------------
+Article 66:
+Title: Court Imposes over $1.6B in Penalties on a Toyota Subsidiary for Emissions Fraud
+Description: U.S. District Court Judge Mark A. Goldsmith for the Eastern District of Michigan accepted Hino Motors, Ltd.’s guilty plea to a one-count criminal information charging it with having engaged in a multi-year criminal conspiracy to defraud both the U.S. governme…
+Published: 2025-03-20T22:04:03Z
+Source: Justice.gov
+--------------------------------------------------
+Article 67:
+Title: SemiAnalysis: America Is Missing the New Labor Economy – Robotics
+Description: SemiAnalysis is hosting an Nvidia Blackwell GPU Hackathon on Sunday March 16th. It is the ultimate playground for Blackwell PTX tech enthusiasts, offering hands-on exploration of Blackwell & PT…
+Published: 2025-03-11T11:25:13Z
+Source: Semianalysis.com
+--------------------------------------------------
+Article 68:
+Title: GM blocks dealers from using Apple CarPlay, Android Auto aftermarket kits
+Description: GM removed both Apple and Android support from those EVs in late 2023, opting instead for its own built-in infotainment system.
+Published: 2025-03-24T19:47:08Z
+Source: Dealershipguy.com
+--------------------------------------------------
+Article 69:
+Title: Understanding Solar Energy
+Description: The biggest energy story of the last fifteen years is the rise of solar photovoltaics, also known as solar PV or simply solar panels.
+Published: 2025-03-20T12:09:32Z
+Source: Construction-physics.com
+--------------------------------------------------
+Article 70:
+Title: Building Gearbox Dynamometer
+Description: Built a custom dynamometer to test a marine gearbox. Features torque sensors, CAN bus, Motor Control, Python dashboard, and automated data logging.
+Published: 2025-04-04T03:03:10Z
+Source: Thriftybuilder.dev
+--------------------------------------------------
+Article 71:
+Title: Tracking the international space station with an Arduino
+Description: A collection of Farid's notes
+Published: 2025-04-05T14:54:17Z
+Source: Faridrener.com
+--------------------------------------------------
+Article 72:
+Title: IO Devices and Latency
+Description: Take an interactive journey through the history of IO devices, and learn how IO device latency affects performance.
+Published: 2025-03-13T16:46:27Z
+Source: Planetscale.com
+--------------------------------------------------
+Article 73:
+Title: Work Simplification and the History of Government Efficiency and Management
+Description: A conversation with Kevin Hawickhorst on the evolution of government management practices and their implications for modern public administration.
+Published: 2025-04-09T00:17:33Z
+Source: Governance.fyi
+--------------------------------------------------
+Article 74:
+Title: Obituary for Cyc
+Description: Obituary for the greatest monument to logical AGI. After 40 years, 30 million rules, 200 million dollars, 2000 person-years, and many promises, Cyc has failed to reach intellectual maturity, and may never will. Exacerbated by the secrecy and insularity of Cyc…
+Published: 2025-04-08T19:13:50Z
+Source: Github.io
+--------------------------------------------------
+Article 75:
+Title: SwitchBot expands Home Assistant support, with added value for HomeKit users
+Description: has quietly built a solid lineup of smart home products, including curtain motors, , and robot vacuums. Last week, the company announced plans to expand support for Home Assistant, with more than 45 devices gaining support in the first half of 2025. For Home …
+Published: 2025-03-24T19:16:00Z
+Source: 9to5Mac
+--------------------------------------------------
+Article 76:
+Title: Trump’s Tariffs Are Expected to Undermine the Clean Energy Transition
+Description: New Trump administration tariff son imported goods could exacerbate a shortage of parts used by the energy industry
+Published: 2025-04-02T15:15:00Z
+Source: Politicopro.com
+--------------------------------------------------
+Article 77:
+Title: General Motors sales jump 17% in 1st quarter of 2025, with EV sales nearly doubling
+Description: GM reported Tuesday it sold 693,363 vehicles in the first quarter in the U.S., compared with a 1.5% slide one year ago to 594,233 vehicles sold.
+Published: 2025-04-01T15:30:39Z
+Source: Detroit Free Press
+--------------------------------------------------
+Article 78:
+Title: Exclusive-After Trump, EU seeks zero tariff from India on car imports, sources say
+Description: The European Union wants India to eliminate tariffs on car imports under a long-pending trade deal and Prime Minister Narendra Modi's government is willing...
+Published: 2025-04-07T09:33:20Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 79:
+Title: Stock market today: S&P 500, Nasdaq plunge, Dow drops 1,400 points as Trump's tariffs shock markets
+Description: US stocks plunged after President Trump announced a baseline 10% tariff on all US trading partners, sending shockwaves through markets and the global trade...
+Published: 2025-04-03T13:30:46Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 80:
+Title: Trump has begun another trade war. Here's a timeline of how we got here
+Description: Long-threatened tariffs from U.S. President Donald Trump have plunged the country into a global trade war — all while on-again, off-again new levies continue...
+Published: 2025-03-25T18:35:43Z
+Source: Yahoo Entertainment
+--------------------------------------------------
+Article 81:
+Title: Bezos-Backed EV Startup Wants to Build $25,000 Electric Pickup, Report Says
+Description: An affordable two-seat electric truck would be an anomaly in today's EV market. But startup automakers can have a tough time breaking through.
+Published: 2025-04-09T18:12:43Z
+Source: CNET
+--------------------------------------------------
+Article 82:
+Title: We Now Know the Price for Nintendo's Controversial Switch 2 Welcome Tour
+Description: Fans aren't thrilled that the $450 console doesn't simply include a free copy of the tutorial game.
+Published: 2025-04-08T15:46:14Z
+Source: CNET
+--------------------------------------------------
+Article 83:
+Title: At GDC 2025, Video Game Workers Launch Industry-Wide Union
+Description: Gamers will get better games, while developers enjoy a higher quality of life, the newly announced United Videogame Workers says.
+Published: 2025-03-21T12:00:00Z
+Source: CNET
+--------------------------------------------------
+Article 84:
+Title: British firm Longbow reveals featherweight EV sports cars developed by former Tesla, Lucid and BYD execs
+Description: British firm Longbow reveals featherweight EV sports cars developed by former Tesla, Lucid and BYD execsYou don’t normally associate lightweight chassis and low dry weight with electric vehicles. EVs are either lightweight with a dismal range, or range impres…
+Published: 2025-03-13T19:15:53Z
+Source: Yanko Design
+--------------------------------------------------
+Article 85:
+Title: Air-Powered Robots Walk Straight Off the 3D Printer
+Description: Air-Powered Robots Walk Straight Off the 3D PrinterMost of the time when we hear the word robotics, it brings to mind all the different robots that we’ve seen in movies and television...
+Published: 2025-03-29T15:20:01Z
+Source: Yanko Design
+--------------------------------------------------
+Article 86:
+Title: Futuristic-looking Electric Skateboard Brings Speed, Style, and Sustainability
+Description: Futuristic-looking Electric Skateboard Brings Speed, Style, and SustainabilityElectric skateboards have revolutionized urban transportation, but most boards on the market struggle to balance performance with portability. Enter the Parsec Aero Pro, a cutting-e…
+Published: 2025-03-28T14:20:11Z
+Source: Yanko Design
+--------------------------------------------------
+Article 87:
+Title: Renault’s Bonkers R5 Turbo 3E Is an EV That Refuses to Be Boring
+Description: Renault’s Bonkers R5 Turbo 3E Is an EV That Refuses to Be BoringThe Renault 5 Turbo has always been a bit of a lunatic. Back in the ’80s, it was the kid at the party doing backflips...
+Published: 2025-03-18T20:30:17Z
+Source: Yanko Design
+--------------------------------------------------
+Article 88:
+Title: Top 5 Innovative Automotive Concepts That Are Redefining Transportation
+Description: Top 5 Innovative Automotive Concepts That Are Redefining TransportationThe automotive industry is constantly evolving, with designers and engineers pushing the boundaries of what’s possible in vehicle design and functionality. Here we have curated...
+Published: 2025-04-04T11:40:05Z
+Source: Yanko Design
+--------------------------------------------------
+Article 89:
+Title: Sink Into Luxury: The King Cloud Recliner Takes Movie Night to a Whole New Level!
+Description: Sink Into Luxury: The King Cloud Recliner Takes Movie Night to a Whole New Level!The King Cloud Recliner blends innovative engineering, smart technology, and customizable comfort into the ultimate luxury seating experience. Created by King Living, an Australi…
+Published: 2025-03-12T22:30:10Z
+Source: Yanko Design
+--------------------------------------------------
+Article 90:
+Title: Hypershell’s AI-powered Exosuit lets you Hike Longer, Climb Faster, and Lift Heavier
+Description: Hypershell’s AI-powered Exosuit lets you Hike Longer, Climb Faster, and Lift HeavierScience fiction has always promised us superhuman strength wrapped in sleek metal suits, from Tony Stark’s Iron Man to the power armor in Halo. But...
+Published: 2025-03-25T01:45:23Z
+Source: Yanko Design
+--------------------------------------------------
+Article 91:
+Title: Solar-Powered Transportation & The Eco-Friendly Revolution Taking Over
+Description: Solar-Powered Transportation & The Eco-Friendly Revolution Taking OverSolar energy is increasingly being utilized in the future of transportation to promote sustainable mobility, reducing reliance on non-renewable fossil fuels while meeting energy demands....
+Published: 2025-03-23T11:40:00Z
+Source: Yanko Design
+--------------------------------------------------
+Article 92:
+Title: 5 Best Inspiration That Unleash the Potential of Fruit-Inspired Product Design
+Description: 5 Best Inspiration That Unleash the Potential of Fruit-Inspired Product DesignIn the realm of product design, nature’s bounty – particularly fruits, offers boundless inspiration. These natural wonders provide a perfect blend of vibrant colors, unique...
+Published: 2025-03-29T19:15:46Z
+Source: Yanko Design
+--------------------------------------------------
+Article 93:
+Title: The Black Pearl: 350-Foot Eco-Sailing Superyacht Blends Luxury with Sustainable Innovation
+Description: The Black Pearl: 350-Foot Eco-Sailing Superyacht Blends Luxury with Sustainable InnovationThe Black Pearl represents one of the most significant achievements in modern yacht design and construction. This 106.7-meter (350.1-foot) sailing superyacht, launched i…
+Published: 2025-03-27T17:20:11Z
+Source: Yanko Design
+--------------------------------------------------
+Article 94:
+Title: First look at the new 'glow-in-the-dark' Pac-Man Xbox controller
+Description: Here's a first look at the PAC-MAN Special Edition Wireless Controller which is available to purchase right now.
+Published: 2025-03-20T14:09:50Z
+Source: Windows Central
+--------------------------------------------------
+Article 95:
+Title: Lynx Motors Ford GT1 Eau Rouge
+Description: Named for an iconic corner at the famed Spa-Francorchamps circuit in Belgium, the Ford GT1 Eau Rouge from Lynx Motors is a track-ready beast. Based on a 2005 Ford GT OEM chassis, it's powered by a 7L Roush Yates RY45...
+Published: 2025-03-18T00:00:05Z
+Source: Uncrate.com
+--------------------------------------------------
+Article 96:
+Title: Crescendo 2 Smart Bendable Vibrator
+Description: Every body is different. That's why the Crescendo 2 has an ultra-flexible, bendable design that's clinically proven to improve arousal and alleviate dryness. It does so with six powerful motors and 16 intensity levels, plus that bendable design that can...
+Published: 2025-03-19T18:35:39Z
+Source: Uncrate.com
+--------------------------------------------------
+Article 97:
+Title: Chevrolet Corvette UK Design Concept
+Description: General Motors recently opened a new advanced design studio in the UK. Alongside the official opening, they unveiled a new Corvette-based concept created by the UK team as part of a global design project. The design draws inspiration from the...
+Published: 2025-04-08T16:00:01Z
+Source: Uncrate.com
+--------------------------------------------------
+Article 98:
+Title: Top 10 Solar-Powered Designs To Harness The Sun & Transform Your Home & Outdoors
+Description: Top 10 Solar-Powered Designs To Harness The Sun & Transform Your Home & OutdoorsSolar-powered technologies are emerging as pivotal and ingenious solutions for a greener future in a world increasingly oriented towards sustainability and environmental conscious…
+Published: 2025-03-24T11:40:12Z
+Source: Yanko Design
+--------------------------------------------------
+Article 99:
+Title: Understanding the origin of magnetic moment enhancement in novel alloys
+Description: Iridium-doped iron-cobalt (Fe-Co-Ir) alloys, previously identified through machine learning, have been shown to have enhanced magnetic properties, surpassing even the widely used pure Fe-Co alloy. However, the origin of this enhanced magnetization is poorly u…
+Published: 2025-03-14T15:38:11Z
+Source: Science Daily
+--------------------------------------------------
+Article 100:
+Title: New Lightweight British EVs Blur Line Between Footwear/Automotive Design
+Description: A British startup called Longbow Motors, formed by ex-Tesla and -Lucid employees, aims to create lightweight EVs that harken back to traditional British sports cars. They've unveiled two of their designs, a no-windshield Speedster and a fixed-roof Roadster, t…
+Published: 2025-03-17T15:00:00Z
+Source: Core77.com
+--------------------------------------------------

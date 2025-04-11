@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla Stock and Sentiment Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 80%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        img { max-width: 80%; height: auto; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Tesla Stock and Sentiment Analysis</h1>
+    <h3>Period: March 12 - April 10, 2025</h3>
+    <p><br>Tesla Stock and Sentiment Analysis (March 12 - April 10, 2025):<br>- Stock data: Daily Open, Close, High, Low, Volume from yFinance.<br>- Sentiment: NewsAPI data with VADER sentiment (mostly neutral except April 10).<br>- PCA: Reduced 8 features to 5 components.<br>- PC1 likely captures price trends (Close, Open).<br>- PC2 may reflect trading activity (Volume, Volatility).<br>- Sentiment impact limited due to sparse news data.<br></p>
+
+    <h2>Sample Data</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Close Price</th>
+            <th>Sentiment</th>
+            <th>Daily Return</th>
+            <th>PC1</th>
+        </tr>
+
+        <tr>
+            <td>2025-03-12</td>
+            <td>248.09</td>
+            <td>0.1821</td>
+            <td>0.0035</td>
+            <td>-1.08</td>
+        </tr>
+    
+        <tr>
+            <td>2025-03-13</td>
+            <td>240.68</td>
+            <td>0.0408</td>
+            <td>-0.0300</td>
+            <td>-1.50</td>
+        </tr>
+    
+        <tr>
+            <td>2025-03-14</td>
+            <td>249.98</td>
+            <td>0.1591</td>
+            <td>0.0108</td>
+            <td>-1.68</td>
+        </tr>
+    
+        <tr>
+            <td>2025-03-17</td>
+            <td>238.01</td>
+            <td>0.2216</td>
+            <td>-0.0288</td>
+            <td>-1.48</td>
+        </tr>
+    
+        <tr>
+            <td>2025-03-18</td>
+            <td>225.31</td>
+            <td>0.3113</td>
+            <td>-0.0125</td>
+            <td>-1.38</td>
+        </tr>
+    
+    </table>
+
+    <h2>PCA Visualizations</h2>
+    <img src="scree_plot.png" alt="Scree Plot">
+    <img src="loadings_heatmap.png" alt="Loadings Heatmap">
+
+    <h2>PCA Loadings</h2>
+    <table>
+        <tr>
+            <th>Feature</th>
+<th>PC1</th><th>PC2</th><th>PC3</th><th>PC4</th><th>PC5</th></tr><tr><td>Open</td><td>-0.160</td><td>0.548</td><td>-0.519</td><td>0.068</td><td>0.081</td></tr><tr><td>Close</td><td>0.135</td><td>0.618</td><td>-0.010</td><td>0.451</td><td>0.037</td></tr><tr><td>Volume</td><td>0.442</td><td>0.197</td><td>-0.269</td><td>-0.256</td><td>-0.269</td></tr><tr><td>Daily_Return</td><td>0.362</td><td>0.139</td><td>0.604</td><td>0.431</td><td>-0.061</td></tr><tr><td>Price_Range</td><td>0.480</td><td>0.054</td><td>-0.099</td><td>-0.363</td><td>-0.234</td></tr><tr><td>Volatility</td><td>0.478</td><td>0.008</td><td>0.091</td><td>-0.157</td><td>0.051</td></tr><tr><td>Sentiment</td><td>0.157</td><td>-0.443</td><td>-0.445</td><td>0.598</td><td>-0.458</td></tr><tr><td>Sentiment_Smoothed</td><td>0.383</td><td>-0.244</td><td>-0.278</td><td>0.164</td><td>0.806</td></tr>
+    </table>
+</body>
+</html>
