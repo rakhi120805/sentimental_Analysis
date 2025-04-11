@@ -5,28 +5,32 @@ from datetime import datetime, timedelta
 
 # NewsAPI setup
 api_key = "YOUR_NEWSAPI_KEY"  # Replace with your NewsAPI key
-query = "Tesla OR Tesla Inc OR TSLA OR Elon Musk"  # Broader query
+query = "Tesla OR Tesla Inc OR TSLA OR Elon Musk OR Tesla Motors"  # Broad query
 end_date = datetime(2025, 4, 10).date()  # Match stock data
-start_date = end_date - timedelta(days=30)  # 30 days ago
+start_date = datetime(2025, 3, 11).date()  # Match stock data
 
 # Function to fetch news with pagination
 def fetch_news(api_key, query, start_date, end_date):
     url = "https://newsapi.org/v2/everything"
     articles = []
     page = 1
-    while True:
+    max_pages = 5  # Limit to avoid hitting API quota
+    while page <= max_pages:
         params = {
             "q": query,
             "from": start_date.strftime("%Y-%m-%d"),
             "to": end_date.strftime("%Y-%m-%d"),
             "apiKey": api_key,
             "language": "en",
-            "sortBy": "relevancy",  # Try relevancy for better results
+            "sortBy": "popularity",  # Prioritize high-impact articles
             "page": page,
             "pageSize": 100
         }
         try:
             response = requests.get(url, params=params)
+            if response.status_code == 429:
+                print("Rate limit reached. Try again later.")
+                break
             response.raise_for_status()
             data = response.json()
             new_articles = data.get("articles", [])
@@ -36,7 +40,7 @@ def fetch_news(api_key, query, start_date, end_date):
                 break
             page += 1
         except Exception as e:
-            print(f"Error fetching news on page {page}: {e}")
+            print(f"Error fetching page {page}: {e}")
             break
     if not articles:
         print("No news articles found.")
@@ -47,13 +51,14 @@ print(f"Fetching news from {start_date} to {end_date}...")
 articles = fetch_news(api_key, query, start_date, end_date)
 print(f"Total articles fetched: {len(articles)}")
 
-# Log article details for debugging
+# Log articles for debugging
 with open("news_articles_log.txt", "w", encoding="utf-8") as f:
     for i, article in enumerate(articles, 1):
         f.write(f"Article {i}:\n")
         f.write(f"Title: {article.get('title', 'N/A')}\n")
         f.write(f"Description: {article.get('description', 'N/A')}\n")
         f.write(f"Published: {article.get('publishedAt', 'N/A')}\n")
+        f.write(f"Source: {article.get('source', {}).get('name', 'N/A')}\n")
         f.write("-" * 50 + "\n")
 
 # Process news into a DataFrame
@@ -62,8 +67,7 @@ for article in articles:
     title = article.get("title", "")
     description = article.get("description", "")
     published_at = article.get("publishedAt", "")
-    # Use title or description (at least one)
-    if title or description:
+    if title or description:  # Accept either
         text = f"{title} {description or ''}".strip()
         try:
             date = pd.to_datetime(published_at).date()
@@ -108,3 +112,7 @@ stock_data = pd.read_csv("tsla_stock_data.csv")
 stock_dates = pd.to_datetime(stock_data["Date"]).dt.date
 print("\nStock data range:")
 print(f"From {stock_dates.min()} to {stock_dates.max()}")
+
+# Count non-zero sentiment days
+non_zero_days = len(sentiment_df[sentiment_df["Sentiment"] != 0])
+print(f"Days with non-zero sentiment: {non_zero_days}")
